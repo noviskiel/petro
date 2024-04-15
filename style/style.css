@@ -28,6 +28,9 @@
 }
 
 @media screen and (max-width: 2560px){
+    .btnMenu{
+        display: none;
+    }
     .pesquisa1{
         display: block;
     }
@@ -38,12 +41,12 @@
     .menuSobe{
         display: none;
     }
-    .sobreOsElementos{
-        display: none;
-    }
 }
 
 @media screen and (max-width: 1440px){
+    .btnMenu{
+        display: none;
+    }
     .pesquisa1{
         display: block;
     }
@@ -57,6 +60,9 @@
 }
 
 @media screen and (max-width: 1024px){
+    .btnMenu{
+        display: none;
+    }
     .pesquisa1{
         display: block;
     }
@@ -338,9 +344,6 @@
     .menuSobe{
         display: block;
     }
-    /* .poco{
-        
-    } */
     .poco2{
         width: 288px;
     }

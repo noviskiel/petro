@@ -71,3 +71,7 @@
         font-weight: 600;
         padding-right: 13px;
     }
+
+    .sobreOsElementos-aparecer{
+        display: block;
+    }   
