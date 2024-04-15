@@ -1,0 +1,51 @@
+.ajuda{
+    position: absolute;
+    top: 170px;
+    left: 400px;
+}
+.ajuda1{
+    background-color: #FFCC32;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 1099px;
+    max-height: 125px;
+}
+.ajuda1_1{
+    padding: 30px 36px 0px 36px;
+}
+.texto1{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 21px;
+}
+.texto2{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+}
+.ajuda2{
+    width: 1099px;
+    height: 464px;
+    background-color: #4EAB7F;
+    display: flex;
+    justify-content: space-around;
+}
+.img1{
+    padding: 30px 0 0 0;
+}
+.img1_1{
+    border-left: solid 14.5px #FFCC32;
+    border-right: solid 14.5px #FFCC32;
+    border-top: solid 28.5px #FFCC32;
+    border-bottom: solid 28.5px #FFCC32;
+}
+.img2{
+    padding: 30px 0 0 0;
+}
+.img2_1{
+    border-left: solid 14.5px #FFCC32;
+    border-right: solid 14.5px #FFCC32;
+    border-top: solid 28.5px #FFCC32;
+    border-bottom: solid 28.5px #FFCC32;
+}

@@ -1,0 +1,7 @@
+.recheio tirei o height
+
+.filtro
+tirei o height, transform
+
+.mapa
+tirei o height, transform

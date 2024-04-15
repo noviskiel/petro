@@ -1,0 +1,9 @@
+.search{
+    position: absolute;
+    top: 1px;
+    left: 1px;
+}
+
+.inputPesquisa{
+    font-family: sans-serif;
+}

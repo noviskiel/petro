@@ -1,0 +1,1 @@
+const poco = document.querySelector('#poco');

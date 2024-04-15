@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+.container-menu{
+    display: none;
+}
+
+.mapa__svg{
+    width: 100%;
+    position: relative;
+    background-color: lightblue;
+}
+
+.estado{
+    fill: green;
+}
+
+.estado:hover{
+    fill: #21cc6c;
+}
+
+.none{
+    display: none;
+}
+
+.block{
+    display: block;
+}
+
+@media screen and (max-width: 2560px){
+    .pesquisa1{
+        display: block;
+    }
+    .pesquisa{
+        top: 0px;
+        left: 0px;
+    }
+    .menuSobe{
+        display: none;
+    }
+    .sobreOsElementos{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1440px){
+    .pesquisa1{
+        display: block;
+    }
+    .pesquisa{
+        top: 0px;
+        left: 0px;
+    }
+    .menuSobe{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    .pesquisa1{
+        display: block;
+    }
+    .pesquisa{
+        top: 0px;
+        left: 0px;
+    }
+    .menuSobe{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .pesquisa1{
+        display: block;
+    }
+    .btnFullscreen{
+        display: none;
+    }
+
+    .header1{
+        display: none;
+    }
+    .recheio{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        align-items: center;
+    }
+    .mapa{
+        height: 89vh;
+        transform: none;
+        width: 100%;
+        margin: 35px 0 0 0;
+        max-height: none;
+    }
+    .filtro{
+        height: auto;
+        transform: none;
+        width: 70%;
+        margin: 0 0 50px 0;
+    }
+    .container-menu{
+        display: none;
+    }
+    .menuSobe{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .poco2{
+        width: 393px;
+    }
+    .pesquisa1{
+        display: none;
+    }
+    .container-menu{
+        display: block;
+    }
+    .acessibilidade{
+        display: none;
+    }
+    .header2{
+        grid-template-columns: 100% 0 0;
+        text-align: left;
+        font-size: 12px;
+        height: 4vh;
+    }
+    .mapa{
+        width: 100vw;
+        height: 80vh;
+        margin: 0;
+        padding: 0;
+        border: solid 6px #4EAB7F;
+    }
+    .filtro{
+        display: none;
+    }
+    .inputPesquisa{
+        display: none;
+    }
+    .btnPesquisa{
+        display: none;
+    }
+    .btnFullscreen{
+        display: none;
+    }
+    .mapa__svg{
+        background-color: #fff;
+    }
+    .duvida{
+        top: 20px;
+        left: 20px;
+        width: 35px; 
+    }
+    .elementosSelecionados{
+        right: 1px;
+        left: 80px;
+        top: 29px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 16px;
+    }
+    .checkbox{
+        flex-direction: row;
+        bottom: 140px;
+        text-align: center;
+    }
+    .recheio{
+        margin: 0;
+    }
+    .esconder{
+        display: none;
+    }
+    .footer{
+        font-size: 14px;
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        height: 270px;
+        padding: 40px 0 0 0;
+        border-top: 0;
+        border-right: 6px;
+        border-bottom: 6px;
+        border-left: 6px;
+        border-style: solid;
+        border-color: #4EAB7F;
+        margin: 0 0 70px 0;
+    }
+    .mapa{
+        border-top: 6px;
+        border-right: 6px;
+        border-bottom: 0;
+        border-left: 6px;
+        border-style: solid;
+        border-color: #4EAB7F;
+        height: 89.4vh; 
+    }
+    .filtro2{
+        position: fixed;
+        right: 8px;
+        bottom: 75px;
+        width: 409px;
+        border: 4px solid green;
+        border-radius: 25px 25px 0 0;
+        padding-bottom: 10px;
+        z-index: 1;
+    }
+    .titulo2{
+        width: 190px;
+        font-size: 25px;
+    }
+    .tituloNoCentro{
+        display: flex;
+        justify-content: center;
+    }
+    .txt2{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .peneira2{
+        grid-template-columns: 10% 32% 58%;
+    }
+
+    .peneira3{
+        align-items: center;
+    }
+    .peneira3 h3{
+        text-align: left;
+        font-family: 'Open Sans' sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #000;
+    }
+    .input2{
+        border-radius: 4px;
+        width: 175px;
+        height: 38px;
+    }
+    .btn3{
+        background-color: #4EAB7F;
+        color: #000;
+        width: 155px;
+        height: 38.38px;
+    }
+    .peneira4{
+        grid-template-columns: 45% 55%;
+    }
+    .btn4{
+        display: none;
+    }
+    .txt2{
+        display: none;
+    }
+    .opaco{
+        opacity: 85%;   
+    }
+    .naoOpaco{
+        opacity: 100%;
+    }
+    .corDeFundo{
+        background-color: #000;
+    }
+    .footer__painel{
+        z-index: 1;
+    }
+    .btnMenu{
+        display: none;
+    }
+    .pesquisa{
+        left: 2px;
+        top: 290px;
+        width: 409px;
+    }
+    .pesquisa1-desaparecer{
+        display: none;
+    }
+    .filtro2-aparecer{
+        display: block;
+    }
+    .menuSobe{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .pesquisa1{
+        display: none;
+    }
+    .pesquisa{
+        left: 2px;
+        top: 290px;
+        width: 359px;
+    }
+    .pesquisa1-desaparecer{
+        display: none;
+    }
+    .filtro2-aparecer{
+        display: block;
+    }
+    .menuSobe{
+        display: block;
+    }
+    .filtro2{
+        width: 360px;
+    }
+    .poco2{
+        width: 343px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .pesqusia1{
+        display: none;
+    }
+    .pesquisa{
+        left: 2px;
+        top: 290px;
+        width: 304px;
+    }
+    .filtro2{
+        width: 306px;
+        left: 7px;
+        bottom: 0;
+        bottom: 75px;
+    }
+    .filtro2-aparecer{
+        display: block;
+    }
+    .input2{
+        width: 164px;
+    }
+    .pesquisa1-desaparecer{
+        display: none;
+    }
+    .menuSobe{
+        display: block;
+    }
+    /* .poco{
+        
+    } */
+    .poco2{
+        width: 288px;
+    }
+}
+
+
+

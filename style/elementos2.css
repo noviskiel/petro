@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+    .sobreOsElementos{
+        width: 100vw;
+        height: 100vh;
+        background-color: #CECECE;
+        display: none;
+        position: fixed;
+        top: 1px;
+        z-index: 4;
+    }
+    .x1{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .x2{
+        border: 5px solid #5C5C5C;
+        width: 60px;
+        height: 60px;
+        border-radius: 35px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Comfortaa', sans-serif;
+        font-size: 30;
+        font-weight: 700;
+        color: #5C5C5C;
+        margin-top: 20px;
+    }
+    .elementos1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 22px;
+        margin-top: 50px;
+    }
+    .elementos2{
+        display: flex;
+    }
+    .poco{
+        background-color: #A4A4A4;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 800;
+        border-radius: 12px 0 0 12px;
+        width: 31px;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .poco2{
+        background-color: #EAEAEA;
+        display: flex;
+        align-items: center;
+        gap: 40px;
+        width: 320px;
+        height: 120px;
+        text-align: left;
+        border-radius: 0 12px 12px 0;
+    }
+    .imgPoco{
+        width: 90px;
+        padding-left: 24px;
+    }
+    .poco2 div{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        padding-right: 13px;
+    }

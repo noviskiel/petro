@@ -1,0 +1,21 @@
+.pesquisa{
+    
+    position: absolute; 
+    top: 290px;
+    left: 30px;
+    width: 308px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #fff;
+    border: 2px solid green;
+    padding: 0 8px 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.pesquisa input{
+    width: 350px;
+    height: 34px;
+}

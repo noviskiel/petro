@@ -1,0 +1,8 @@
+.checkbox{
+    position: absolute;
+    bottom: 1px;
+    left: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

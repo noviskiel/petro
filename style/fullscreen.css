@@ -1,0 +1,17 @@
+.btnFullscreen{
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+
+.btnFullscreen:hover{
+    width: 65px;
+}
+.btnMenu{
+    position: absolute;
+    right: 5px;
+
+    float: left;
+    height: 44px;
+
+}

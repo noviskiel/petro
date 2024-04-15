@@ -1,0 +1,12 @@
+.elementosSelecionados{
+    position: absolute;
+    top: 1px;
+    right: 300px;
+    font-family: sans-serif;
+}
+
+.font{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}

@@ -1,0 +1,77 @@
+.filtro2{
+    position: absolute;
+    right: 150px;
+    bottom: 80px;
+    border-radius: 3em;
+    background-color: #ffffff;
+    width: 450px;
+    display: none;
+}
+
+.titulo2{
+    border-top: 7px solid #FFD200;
+    text-align: center;
+    margin: 5%;
+    color: #4EAB7F;
+}
+
+.txt2{
+    text-align: center;
+    margin: 5%;
+}
+
+.peneira2{
+    display: grid;
+    grid-template-columns: 100% 100%;
+    padding: 5px;
+    padding-inline: 10%;
+    text-align: center;
+}
+
+.input2{
+    border: 2px solid black;
+    height: 45px;
+    text-align: center;
+    font-size: 1em;
+}
+
+.btn3{
+    background-color: #4EAB7F;
+    color: #21593B;
+    height: 4.3vh;
+    font-size: 1.3em;
+    font-weight: bold;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.btn_container2{
+    text-align: center;
+    margin: 2%;
+}
+
+.btn4{
+    background-color:#4EAB7F;
+    color: #21593B;
+    height: 3vh;
+    width: 5vw;
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 1em;
+    cursor: pointer;
+}
+
+.filtro2__links{
+    color: #4EAB7F;
+}
+
+.interrogacao{
+    font-family: 'Open Sans' sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    width: 21px;
+    height: 21px;
+    background-color: #0F4DC5;
+    border-radius: 10px;
+}
