@@ -41,6 +41,10 @@
     .menuSobe{
         display: none;
     }
+    .sobre-os-elementos-main{
+
+        display: block;
+    }
 }
 
 @media screen and (max-width: 1440px){
@@ -57,9 +61,18 @@
     .menuSobe{
         display: none;
     }
+    .sobre-os-elementos-main{
+
+        display: none;
+    }
 }
 
 @media screen and (max-width: 1024px){
+    
+    .sobre-os-elementos-main{
+
+        display: none;
+    }
     .btnMenu{
         display: none;
     }
@@ -76,6 +89,11 @@
 }
 
 @media screen and (max-width: 768px){
+    
+    .sobre-os-elementos-main{
+
+        display: block;
+    }
     .pesquisa1{
         display: block;
     }
@@ -112,9 +130,17 @@
     .menuSobe{
         display: block;
     }
+    .pesquisa1{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 425px){
+    
+    .sobre-os-elementos-main{
+
+        display: block;
+    }
     .poco2{
         width: 393px;
     }
@@ -292,6 +318,7 @@
 }
 
 @media screen and (max-width: 375px){
+    
     .pesquisa1{
         display: none;
     }
@@ -315,9 +342,14 @@
     .poco2{
         width: 343px;
     }
+    .sobre-os-elementos-main{
+
+        display: block;
+    }
 }
 
 @media screen and (max-width: 320px){
+    
     .pesqusia1{
         display: none;
     }
@@ -346,6 +378,10 @@
     }
     .poco2{
         width: 288px;
+    }
+    .sobre-os-elementos-main{
+
+        display: block;
     }
 }
 

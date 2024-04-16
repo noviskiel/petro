@@ -4,10 +4,10 @@
         width: 100vw;
         height: 100vh;
         background-color: #CECECE;
-        display: none;
         position: fixed;
         top: 1px;
         z-index: 4;
+        display: none;
     }
     .x1{
         display: flex;
