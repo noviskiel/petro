@@ -1,6 +1,7 @@
 .duvida{
     position: absolute;
-    bottom: 2px;
-    right: 2px;
+    bottom: 26px;
+    right: 26px;
+    height: 60px;
     width: 60px;
 }

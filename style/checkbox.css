@@ -1,8 +1,17 @@
 .checkbox{
     position: absolute;
-    bottom: 1px;
-    left: 1px;
+    bottom: 80px;
+    left: 60px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
 }
+
+.checkbox__name{
+    top: 14px;
+    left: 10px;
+    position: relative;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 200px;
+  }
