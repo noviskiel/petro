@@ -104,13 +104,6 @@
     .header1{
         display: none;
     }
-    .recheio{
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-        height: auto;
-        align-items: center;
-    }
     .mapa{
         height: 89vh;
         transform: none;
@@ -133,6 +126,25 @@
     .pesquisa1{
         display: none;
     }
+    .mapa{
+        width: 100vw;
+        margin: 0;
+        border: 6px solid #4fab7f;
+    }
+    .filtro{
+        display: none;
+    }
+    .mapa__svg{
+        background-color: #fff;
+    }
+    .recheio{
+        margin: 0;
+        padding-inline: auto;
+        padding: 0;
+        height: auto;
+        display: flex;
+    }
+
 }
 
 @media screen and (max-width: 425px){
