@@ -16,7 +16,7 @@ body {
 .header1 {
     background: #ffffff;
     display: grid;
-    grid-template-columns: 10% 40% 50%;
+    grid-template-columns: 10% 20% auto;
     align-items: center;
     padding-inline: 2%;
 }
