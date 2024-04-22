@@ -1,5 +1,4 @@
 const btnPocos = document.querySelector('#btnPocos');
-const btnBaica = document.querySelector('#btnBacia');
 
 btnPocos.addEventListener('click', () => {
     if(btnPocos.checked){
