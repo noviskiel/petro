@@ -301,3 +301,93 @@ a {
     margin-left: 44px;
   }
 
+/* css modal do btn info no filtro*/
+  .modal_info{
+    display: none;
+    position: fixed;
+    z-index: 3; 
+    padding-top: 5%;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.24);
+    
+    
+  }
+  .modal_info_conteudo{
+    
+    overflow:scroll;
+    margin: auto;
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border: 20px solid #4EAB7F;
+  }
+  .modal_recheio{
+    margin: 30px;
+    
+  }
+  .h1{
+    color: #21593B;
+    text-align: left;
+    border-bottom: 5px solid #21593B;
+    font-size: 1.8em;
+    font-weight: bold;
+  
+    
+  
+  }
+  .h1-2{
+    color: #21593B;
+    text-align: center;
+    border-bottom: 5px solid #21593B;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .final{
+    padding-inline: 20%;
+  }
+  .final h1{
+    border: none;
+     text-align: center;
+      margin: 30px;
+       font-size: auto;
+   
+  }
+  .cinza{
+    background-color: #D9D9D9;
+  
+  }
+  .img_txt{
+    display: grid;
+    grid-template-columns: 30% auto
+  }
+  .img_txt img{
+    height: 30px;
+    width: auto;
+    margin-inline: 15px;
+  
+  }
+  
+  .btn_x button{
+   
+    border-radius: 60%;
+    background-color: white;
+    border: none;
+    position:fixed;
+    right: 12%;
+  
+    margin: 10px;
+    cursor: pointer;
+  }
+  .h4{
+    margin: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    padding: 10px;
+    font-size: 1.4em;
+    font-weight:normal;
+  }
+/* fim do css modal do btn info no filtro*/

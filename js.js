@@ -21,3 +21,13 @@ function dark() {
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
+
+function modalFecha(){
+  var modal = document.getElementById("myModal");
+  modal.style.display = "none";
+}
+
+function modalAbre(){
+  var modal = document.getElementById("myModal");
+  modal.style.display = "block";
+}
