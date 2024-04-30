@@ -178,7 +178,25 @@ a {
   font-family: 'Open Sans', sans-serif;
 }
 
+.modal_info .modal_info_conteudo .modal_recheio h4{
+  font-family: 'Open Sans', sans-serif;
+}
 
+a {
+  color: #000000;
+  text-decoration: none;
+  display:inline-block;
+  text-align: right;
+  transition: 600ms;
+  border-bottom: 3px solid transparent;
+}
+
+.item a:hover{
+border-color: #fdc82f;
+transform: scaleX(1);
+  transform-origin: left;
+
+}
 
 
 
