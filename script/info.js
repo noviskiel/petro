@@ -14,9 +14,15 @@ fechaInfo.addEventListener('click', () => {
     mapa__svg.setAttribute('class', 'mapa__svg');
     mapMaker.setAttribute('class', 'none');
     info.setAttribute('class', 'informacoes');
+
+    icone_bacia_do_panara.style.display = 'block';
+    contador_icone_do_parana = true;
+
+    bacia_do_panara.style.display = 'none';
 });
 
 function abreInfo(){
+
     mapa__svg.setAttribute('class', 'mapa__svg setentaPorcento');
     info.setAttribute('class', 'informacoes block');
     info.style.backgroundImage="url(img/informacoes.jpg)";

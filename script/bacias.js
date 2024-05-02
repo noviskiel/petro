@@ -1,25 +1,40 @@
-const icone_bacia = document.querySelector('#icone-bacia');
 const btnBacia = document.querySelector('#btnBacia');
-const bacia = document.querySelector('#bacia');
-let contador_icone_bacia = true;
+
+//bacia do parana
+const icone_bacia_do_panara = document.querySelector('#icone-bacia-do-parana');
+const bacia_do_panara = document.querySelector('#bacia-do-parana');
+let contador_icone_do_parana = true;
 
 btnBacia.addEventListener('click', () => {
 
     if(btnBacia.checked){
 
-        icone_bacia.style.display = 'block';
+        icone_bacia_do_panara.style.display = 'block';
     } else {
-        icone_bacia.style.display = 'none';
+
+        icone_bacia_do_panara.style.display = 'none';
     }
 });
 
-icone_bacia.addEventListener('mouseover', () => {
+icone_bacia_do_panara.addEventListener('mouseover', () => {
 
-        bacia.style.display = 'block';
+        bacia_do_panara.style.display = 'block';
 });
 
-icone_bacia.addEventListener('mouseout', () => {
+icone_bacia_do_panara.addEventListener('mouseout', () => {
+    
+    if(contador_icone_do_parana){
 
-    bacia.style.display = 'none';
+        bacia_do_panara.style.display = 'none';
+    }
 });
 
+icone_bacia_do_panara.addEventListener('click', () => {
+    
+    contador_icone_do_parana = false;
+    icone_bacia_do_panara.style.display = 'none';
+    abreInfo();
+});
+
+
+//bacia de santos
