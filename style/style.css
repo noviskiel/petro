@@ -423,23 +423,42 @@
     .mapa__svg{
         background-color: #fff;
     }
+    /*O DÚVIDA TÁ AQUI*/
     .duvida{
-        top: 20px;
-        left: 20px;
-        width: 35px; 
+        top: 1.8%;
+        left: 6%;
+        width: 8%;
+        height: 8%;
+        /* border: dashed 2px #000; */
     }
+     /*O TEXTO TÁ AQUI*/
     .elementosSelecionados{
         right: 1px;
         left: 80px;
-        top: 29px;
+        top: 4%;
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
-        font-size: 16px;
+        font-size: 2.0vh;
     }
+    /*O CHECKBOX TÁ AQUI*/
     .checkbox{
         flex-direction: row;
-        bottom: 140px;
+        top: 40em;
+        left: 0em;
         text-align: center;
+        /* border: dashed 2px #000; */
+    }
+    .switch2{
+        width: 4.1em;
+        height: 2.2em;
+    }
+    .slider:before {
+        height: 1.8em;
+        width: 1.8em;
+    }
+    .checkbox__name{
+        font-size: 25px;
+        left: auto;
     }
     .recheio{
         margin: 0;
@@ -588,6 +607,13 @@
 
         display: block;
     }
+    .elementosSelecionados{
+        left: 14%;
+        top: 3%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 2.0vh;
+    }
 }
 
 @media screen and (max-width: 320px){
@@ -624,6 +650,45 @@
     .sobre-os-elementos-main{
 
         display: block;
+    }.elementosSelecionados{
+        left: 19%;
+        top: 4.5%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        font-size: 2.5vh;
+    }/*////////////////////////////////////////////////////////////////////////////////
+    /*O DÚVIDA TÁ AQUI*/
+    .duvida{
+        top: 1.8%;
+        left: 6%;
+        width: 8%;
+        height: 8%;
+        /* border: dashed 2px #000; */
+    }
+    /*O CHECKBOX TÁ AQUI*/
+    .checkbox{
+        flex-direction: row;
+        top: 38em;
+        left: 0em;
+        text-align: center;
+        padding: 0%;
+        /* border: dashed 2px #000;  */
+    }
+    .switch2{
+        width: 2.8em;
+        height: 1.6em;
+    }
+    .slider:before {
+        height: 1.2em;
+        width: 1.2em;
+    }
+    .checkbox__name{
+        top: 0.5em;
+        font-size: 1.8vh;
+        left: auto;
+    }
+    .input:checked + .slider:before {
+        transform: translateX(10px);
     }
 }
 
