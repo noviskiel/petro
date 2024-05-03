@@ -8,9 +8,9 @@ btnPocos.addEventListener('click', () => {
     }
 });
 
-btnBaica.addEventListener('click', () => {
-    if(btnBaica.checked){
-        abreInfo();
-    }
-});
+// btnBaica.addEventListener('click', () => {
+//     if(btnBaica.checked){
+//         abreInfo();
+//     }
+// });
 

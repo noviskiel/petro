@@ -576,6 +576,12 @@
     .menuSobe{
         display: block;
     }
+    .soe-some{
+        display: none;
+    }
+    .sobre-os-elementos-main{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 375px){
@@ -613,6 +619,12 @@
         font-family: 'Open Sans', sans-serif;
         font-weight: bold;
         font-size: 2.0vh;
+    }
+    .soe-some{
+        display: none;
+    }
+    .sobre-os-elementos-main{
+        display: none;
     }
 }
 
@@ -689,6 +701,12 @@
     }
     .input:checked + .slider:before {
         transform: translateX(10px);
+    }
+    .soe-some{
+        display: none;
+    }
+    .sobre-os-elementos-main{
+        display: none;
     }
 }
 
